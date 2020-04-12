@@ -1,0 +1,4 @@
+@import '~bootstrap/scss/functions';
+@import './helper/_variables';
+@import '~bootstrap/scss/bootstrap';
+@import './helper/_dashboard'; // 另外用一個 scss 檔案管理樣式，若用 scoped 還是會被 bootstrap 影響
