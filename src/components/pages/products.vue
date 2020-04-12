@@ -54,6 +54,6 @@ export default {
 </script>
 <style scoped>
     .test td{
-        vertical-align: center;
+        vertical-align: middle;
     }
 </style>
