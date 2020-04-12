@@ -3,7 +3,7 @@
         <div class="mt-4">
             <button class="btn btn-primary">新增產品</button>
         </div>
-        <table class="table mt-4">
+        <table class="table mt-4 test">
             <thead>
                 <th scope="col">分類</th>
                 <th scope="col">商品名稱</th>
@@ -52,3 +52,8 @@ export default {
     }
 }
 </script>
+<style scoped>
+    .test td{
+        vertical-align: center;
+    }
+</style>
